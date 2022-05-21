@@ -1,0 +1,8 @@
+test_chanel_detail:
+   "method": "GET"
+   "url": "https://xxxx/info/detail"
+   "headers": ${header}
+   "params": {
+      "partner": ${partner},
+      "role": ${role}
+      }
